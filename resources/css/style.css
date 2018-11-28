@@ -1,0 +1,136 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575.98px){
+    
+
+}
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767.98px) { ... }
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991.98px) { ... }
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199.98px) { ... }
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+
+div{
+    clear: both;
+    /*border: 1px solid black;*/
+}
+
+.container{
+    background-color: white;
+    opacity: 0.9;
+}
+
+.container-fluid{
+    background-color: white;
+    opacity: 0.9;
+}
+
+.carousel_img{
+    width: 100%;
+    height: 550px;
+}
+
+.title{
+    margin-top: 10px;
+    margin-left: 2%;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 96%;
+  background-color: black;
+  height: 3px;
+}
+
+.card{
+    width: 15rem;
+    height: 32rem;
+    margin: 0 auto;
+    background-color: lightgray;
+
+}
+
+.col-sm-3{
+    margin-top: 20px;
+}
+
+.testimonial{
+    width: 200px;
+    height: 200px;
+    margin: 5px auto;
+    margin-right: 10px;
+    float: left;
+}
+
+.testimonial-text{
+
+}
+
+#tabOptions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.list-group-item.active{
+    background-color: #1D2124;
+    color: white;
+    border-color: white;
+}
+
+.indent{
+    margin-left: 5%;
+}
+
+
+
+.clearfix{
+    overflow: auto;
+}
+
+.sho{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    background-color: #1D2124;
+    color: white;
+
+}
+
+.btn:hover{
+    color: gold;
+}
+
+.card-title{
+    font-weight: bold;
+}
+
+.pBackground{
+    margin: 10px auto;
+    font-size: 1.5rem;
+    width: 1500px;
+    /*background-color: #d0d3d8;
+    border-radius: 1%;*/
+}
+
+span {
+  content: "\0027";
+}
+
+
+
+#btnQueen{
+    margin-bottom: 5px;
+}
